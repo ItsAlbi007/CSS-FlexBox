@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: Helvetica;
+  background: linear-gradient(90deg, #2f1cff, #db5b6e);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-wrapper{
+  width: 320px;
+  text-align: center;
+  border-radius: 08px;
+  background-color: #fff;
+  overflow: hidden;
+  margin: 0 14px;
+}
+
+.card-header{
+  background-color: #2c3a47;
+  padding: 60px 40px;
+}
+
+.pic{
+  display:inline-block;
+  padding: 05px;
+}
+
+.pic img{
+  border-radius: 50%;
+  display: block;
+  margin-top: -50px;
+  width: 30%;
+  margin-left: 78px;
+}
+
+.name{
+  color:white;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 05px 0px;
+}
+
+.postion{
+  font-size: 15px;
+  color: #5372f0;
+  font-weight: 400;
+}
+
+
+
